@@ -199,19 +199,44 @@ import java.util.*;
 //     }
 // }
 
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int a = sc.nextInt();
+
+//     switch(a){
+//         case 1 : System.out.println("Hello");
+//         break;
+//         case 2 : System.out.println("Namaste");
+//         break;
+//         case 3 : System.out.println("Bonjour");;
+//         break;
+//         default : System.out.println("loda");
+//     }
+//     }
+// } 
+
+
+// ! Loops
+// ! for loop
+
+// public class tute {
+// public static void main(String[] args){
+//         for(int i = 0; i<=10; i++){
+//             System.out.println(i + "Hello world");
+//         }
+//     }
+// }
+
+// ! While loop
+
 public class tute {
 public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
+    int i = 0;
+    while(i<10){
+        System.out.println("hello world");
+        i++;
+    }
+    }
+}
 
-    switch(a){
-        case 1 : System.out.println("Hello");
-        break;
-        case 2 : System.out.println("Namaste");
-        break;
-        case 3 : System.out.println("Bonjour");;
-        break;
-        default : System.out.println("loda");
-    }
-    }
-} 
