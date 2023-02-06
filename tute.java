@@ -254,14 +254,26 @@ import java.util.*;
 
 // }
 
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int i = sc.nextInt();
+//     do {
+//         System.out.println("hello world");
+//         i++;
+//     }while(i<100);
+//     }
+// }
+
 public class tute {
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int i = sc.nextInt();
-    do {
-        System.out.println("hello world");
-        i++;
-    }while(i<100);
+    int a = 1;
+    do{
+        System.out.println(i + "*" + a + "=" + (i*a));
+        a++;
+    }while(a<=10);
     }
 }
 
