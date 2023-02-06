@@ -245,10 +245,17 @@ import java.util.*;
 
 public class tute {
 public static void main(String[] args){
-    int i = 0;
+    // int i = 0;
+    // do{
+    //     System.out.println("hello world");
+    //     i++;
+    // }while(i<10);
+    // }
+
+    int r = 0;
     do{
-        System.out.println("hello world");
-        i++;
-    }while(i<10);
-    }
+        System.out.println("hello l world");
+        r++;
+    }while(r<10);
+}
 }
