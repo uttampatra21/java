@@ -72,13 +72,38 @@ import java.util.*;
 //     }
 // }
 
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int a = sc.nextInt();
+//     int b = sc.nextInt();
+//     int sum = a+b;
+//     System.out.println(sum);
+//     }
+// }
+
+//! Conconditional 
+// ! 01 if else:
+
+// public class tute {
+// public static void main(String[] args){
+//     int a = 10;
+//     if(a == 20){
+//         System.out.println("YOu are eligible for vote");
+//     }else{
+//         System.out.println("you are not eligible for vote");
+//     }
+//     }
+// }
+
 public class tute {
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int sum = a+b;
-    System.out.println(sum);
+    int a = sc.nextInt(); 
+    if(a >= 10){
+        System.out.println("you are eligible for vote");
+    }else{
+        System.out.println("you are not eligible for vote");
+    }
     }
 }
-
