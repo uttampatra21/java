@@ -123,16 +123,34 @@ import java.util.*;
 // }
 // }
 
+// public class tute {
+// public static void main(String[] args){
+    
+//     Scanner sc = new Scanner(System.in);
+//     int a = sc.nextInt();
+
+//     if(a % 2 == 0){
+//         System.out.println("Input is even");
+//     }else{
+//         System.out.println("Input is odd");
+//     }
+// }
+// }
+
 public class tute {
 public static void main(String[] args){
-    
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
+    int b = sc.nextInt();
 
-    if(a % 2 == 0){
-        System.out.println("Input is even");
+    if( a == b){
+        System.out.println("Input is Equal");
+    }else if(a > b){
+        System.out.println("A is greater than b");
+    }else if(a < b){
+        System.out.println("B is greater than a");
     }else{
-        System.out.println("Input is odd");
+        System.out.println("Input is invalid");
     }
-}
+    }
 }
