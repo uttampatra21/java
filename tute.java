@@ -265,15 +265,27 @@ import java.util.*;
 //     }
 // }
 
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int i = sc.nextInt();
+//     int a = 1;
+//     do{
+//         System.out.println(i + "*" + a + "=" + (i*a));
+//         a++;
+//     }while(a<=10);
+//     }
+// }
+
+// ! patterns :: Lecture 5:::
+
 public class tute {
 public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
-    int i = sc.nextInt();
-    int a = 1;
-    do{
-        System.out.println(i + "*" + a + "=" + (i*a));
-        a++;
-    }while(a<=10);
+    for (int i = 0; i < 4; i++){
+        for(int j = 0; j < 10; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
     }
 }
-
