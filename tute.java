@@ -96,14 +96,43 @@ import java.util.*;
 //     }
 // }
 
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int a = sc.nextInt(); 
+//     if(a >= 10){
+//         System.out.println("you are eligible for vote");
+//     }else{
+//         System.out.println("you are not eligible for vote");
+//     }
+//     }
+// }
+
+// ! odd or even
+
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int a = sc.nextInt();
+
+//     if(a % 2 == 0){
+//         System.out.println("Input is even");
+//     }else{
+//         System.out.println("Input is odd");
+//     }
+// }
+// }
+
 public class tute {
 public static void main(String[] args){
+    
     Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt(); 
-    if(a >= 10){
-        System.out.println("you are eligible for vote");
+    int a = sc.nextInt();
+
+    if(a % 2 == 0){
+        System.out.println("Input is even");
     }else{
-        System.out.println("you are not eligible for vote");
+        System.out.println("Input is odd");
     }
-    }
+}
 }
