@@ -279,13 +279,29 @@ import java.util.*;
 
 // ! patterns :: Lecture 5:::
 
+// public class tute {
+// public static void main(String[] args){
+//     for (int i = 0; i < 4; i++){
+//         for(int j = 0; j < 10; j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// ! neted loops 
+
 public class tute {
 public static void main(String[] args){
-    for (int i = 0; i < 4; i++){
-        for(int j = 0; j < 10; j++){
-            System.out.print("*");
+    int a = 5;
+    int c = 10;
+    for(int i = 0; i<c; i++){
+        for(int b = 0; b<a; b++){
+            System.out.print("*****");
         }
         System.out.println();
     }
+
     }
 }
