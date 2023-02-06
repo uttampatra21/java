@@ -243,19 +243,25 @@ import java.util.*;
 
 // ! do while loop
 
+// public class tute {
+// public static void main(String[] args){
+//     int i = 0;
+//     do{
+//         System.out.println("hello world");
+//         i++;
+//     }while(i<10);
+//     }
+
+// }
+
 public class tute {
 public static void main(String[] args){
-    // int i = 0;
-    // do{
-    //     System.out.println("hello world");
-    //     i++;
-    // }while(i<10);
-    // }
+    Scanner sc = new Scanner(System.in);
+    int i = sc.nextInt();
+    do {
+        System.out.println("hello world");
+        i++;
+    }while(i<100);
+    }
+}
 
-    int r = 0;
-    do{
-        System.out.println("hello l world");
-        r++;
-    }while(r<10);
-}
-}
