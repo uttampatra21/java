@@ -292,16 +292,32 @@ import java.util.*;
 
 // ! neted loops 
 
+// public class tute {
+// public static void main(String[] args){
+//     int a = 5;
+//     int c = 10;
+//     for(int i = 0; i<c; i++){
+//         for(int b = 0; b<a; b++){
+//             System.out.print("*****");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
 public class tute {
 public static void main(String[] args){
     int a = 5;
-    int c = 10;
-    for(int i = 0; i<c; i++){
-        for(int b = 0; b<a; b++){
-            System.out.print("*****");
+    int b = 10;
+    for (int i = 1; i < 5; i++){
+        for(int j =0; j < 5; j++){
+            if (i == a || i == b || j == a || j == b || i == j || j ==i){
+                System.out.println("*");
+            }else{
+                System.out.println("*");
+            }
         }
         System.out.println();
     }
-
     }
 }
