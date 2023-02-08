@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // ! challenge 1
 // public class tute {
 //     public static void main(String[] args){
@@ -290,6 +292,16 @@
 //     }
 // }
 
+// public class tute {
+// public static void main(String[] args){
+//     Scanner sc = new Scanner (System.in);
+//     int a = sc.nextInt();
+//     for (int i = 0; i <= a; i++) {
+//         System.out.println(i);
+//     }
+//     }
+// }
+
 // ! neted loops 
 
 // public class tute {
@@ -365,14 +377,40 @@
 //     }
 // }
 
-public class tute {
-public static void main(String[] args){
-    int n = 5;
-    for(int i = n; i >= 1; i--){
-        for(int j = 0; j < i; j++) {
-            System.out.print("X");
-        }
-        System.out.println();
-    }
-    }
-}
+// public class tute {
+// public static void main(String[] args){
+//     int n = 5;
+//     for(int i = n; i >= 1; i--){
+//         for(int j = 0; j < i; j++) {
+//             System.out.print("X");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// !challlenge 3
+
+// public class tute {
+// public static void main(String[] args){
+//     int n = 4;
+//     for(int i = 1; i <= n; i++){
+//         for(int j = i; j >= 1; j--) {
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// public class tute {
+// public static void main(String[] args){
+//     int a = 10;
+//     for(int i = 0; i <5; i++){
+//         for(int j = 0; j <i; j++) {
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
