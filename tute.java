@@ -1,3 +1,5 @@
+import javax.xml.transform.Source;
+
 // import java.util.Scanner;
 
 // import javax.xml.transform.Source;
@@ -418,6 +420,7 @@
 // }
 
 // ! PATTERN FOUR
+
 // public class tute {
 // public static void main(String[] args){
 //     int a = 4;
@@ -432,6 +435,21 @@
 //     }
 //     }
 // }
+
+public class tute {
+public static void main(String[] args){
+    int n = 5;
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= n-i; j++){
+            System.out.print(" ");
+        }
+        for(int j = 1; j <= i; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    }
+}
 
 // public class tute {
 // public static void main(String[] args){
@@ -462,17 +480,17 @@
 //     }
 // }
 
-public class tute {
-public static void main(String[] args){
-    int a = 5;
-    for(int i = 1; i <=a; i++){
-        for(int j = 1; j <= i; j++){
-            System.out.print(j);
-        }
-        System.out.println();
-    }
-    }
-}
+// public class tute {
+// public static void main(String[] args){
+//     int a = 5;
+//     for(int i = 1; i <=a; i++){
+//         for(int j = 1; j <= i; j++){
+//             System.out.print(j);
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
 
 // public class tute {
 // public static void main(String[] args){
