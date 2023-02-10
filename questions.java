@@ -76,12 +76,30 @@ import javax.xml.transform.Source;
 // }
 
 //! Write an infinite loop using do while condition.
-public class questions {
-public static void main(String[] args){
-    int i = 0;
-    do{
-        System.out.println(i);
-        i++;
-    }while(i<10);
-    }
-}
+// public class questions {
+// public static void main(String[] args){
+//     int i = 0;
+//     do{
+//         System.out.println(i);
+//         i--;
+//     }while(i<10);
+//     }
+// }
+
+//! Two numbers are entered by the user, x and n. Write a function to find the value of one number raised to the power of another i.e. x2.
+// 
+
+// public class questions{
+//     public static int powerNumber(int x, int y){
+//         for(int i = 1; i<= y; i++){
+//             int power = (x *i);
+//             System.out.println(power);
+//         }
+//         return x;
+//     }
+// public static void main(String[] args){
+//     int x = 5;
+//     int y = 3;
+//     powerNumber(x, y);
+//     }
+// }
