@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.xml.transform.Source;
+
 //! 01::  Enter 3 numbers from the user & make a function to print their average.
 
 // public class questions {
@@ -57,18 +59,29 @@ import java.util.Scanner;
 
 //! Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
  
-public class questions{
-    public static int voteEligiblity(int age){
-        if (age > 18){
-            System.out.println("Your Eligiblity for vote");
-        }else{
-            System.out.println("You are not eligible to vote");
-        }
-        return age;
-    }
+// public class questions{
+//     public static int voteEligiblity(int age){
+//         if (age > 18){
+//             System.out.println("Your Eligiblity for vote");
+//         }else{
+//             System.out.println("You are not eligible to vote");
+//         }
+//         return age;
+//     }
+// public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
+//     int age = sc.nextInt();
+//     voteEligiblity(age);
+//     }
+// }
+
+//! Write an infinite loop using do while condition.
+public class questions {
 public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
-    int age = sc.nextInt();
-    voteEligiblity(age);
+    int i = 0;
+    do{
+        System.out.println(i);
+        i++;
+    }while(i<10);
     }
 }
