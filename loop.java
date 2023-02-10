@@ -419,7 +419,7 @@ import javax.xml.transform.Source;
 //     }
 // }
 
-public class main {
+public class loop {
 public static void main(String[] args){
     int a = 5;
     for(int i = 0; i <= a; i++){
