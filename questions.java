@@ -38,18 +38,37 @@ import java.util.Scanner;
 
 //! 03:: Write a function which takes in 2 numbers and returns the greater of those two.
 
-public class questions {
-    public static int numberGreater(int a, int b){
-        return numberGreater(a, b);
+// public class questions {
+//     public static int numberGreater(int a, int b){
+//         int greater = a > b;
+//         return greater;
+//     }
+// public static void main(String[] args){
+//     int a = 20;
+//     int b = 10;
+//     if(a > b){
+//         System.out.println(a);
+//     }else{
+//         System.out.println(b);
+//     }
+//     numberGreater(a, b);
+//     }
+// }
+
+//! Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
+ 
+public class questions{
+    public static int voteEligiblity(int age){
+        if (age > 18){
+            System.out.println("Your Eligiblity for vote");
+        }else{
+            System.out.println("You are not eligible to vote");
+        }
+        return age;
     }
 public static void main(String[] args){
-    int a = 20;
-    int b = 10;
-    if(a > b){
-        System.out.println(a);
-    }else{
-        System.out.println(b);
-    }
-    numberGreater(a, b);
+    Scanner sc = new Scanner(System.in);
+    int age = sc.nextInt();
+    voteEligiblity(age);
     }
 }
