@@ -143,15 +143,31 @@ import javax.xml.transform.Source;
 //     }
 // }
 
+// public class index {
+// public static void main(String[] args){
+//     int n = 5;
+//     for(int i = 1; i <= n; i++){
+//         int space = (n-i); // 5-1 = 4
+//         for(int j = 1; j <= space; j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1; j < n; j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
 public class index {
 public static void main(String[] args){
-    int n = 5;
+    int n = 4;
     for(int i = 1; i <= n; i++){
-        int space = (n-i); // 5-1 = 4
-        for(int j = 1; j <= space; j++){
+
+        for(int j = 1; j <=(n-i); j++){
             System.out.print(" ");
         }
-        for(int j = 1; j < n; j++){
+        for(int j = 1; j <= n; j++){
             System.out.print("*");
         }
         System.out.println();
