@@ -51,5 +51,22 @@ import java.util.*;
 //     int mul = calculateMe(a, b);
 //     System.out.println("Product ot two number is : " + mul );
 //     // System.out.println(calculateMe(a, b));
+// }
+// }
+
+// Factorial Number
+
+// public class function {
+//     public static void factorialNumber(int n){
+//         int factorialNumber = 1;
+//         for(int i = n; i >= 1; i){
+//             factorial = factorialNumber *i;
+//             return ;
+//         }
+//         System.out.println(factorial);
+//     }
+//     public static void main(String[] args){
+//         int n = 5;
+//         factorialNumber(n);
 //     }
 // }
