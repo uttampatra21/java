@@ -106,39 +106,55 @@ import javax.xml.transform.Source;
 //     }
 // }
 
+// public class index {
+// public static void main(String[] args){
+//     int n = 5;
+//     // inner loop
+
+//     for (int i = 1; i <= n; i++){
+//         for (int j = 1; j <= i; j++){
+//             System.out.print("*");
+//         }
+//         int space = 2 * (n - i);
+//         for(int j = 1; j <= space; j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1; j <= i; j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+
+//     for(int i = n; i >= 1; i--){
+//         for(int j = 1; j <= i; j++){
+//             System.out.print("*");
+//         }
+//         int space = 2* (n-i);
+//         for(int j = 1; j <= space; j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1; j <= i; j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+
+
+//     }
+// }
+
 public class index {
 public static void main(String[] args){
     int n = 5;
-    // inner loop
-
-    for (int i = 1; i <= n; i++){
-        for (int j = 1; j <= i; j++){
-            System.out.print("*");
-        }
-        int space = 2 * (n - i);
+    for(int i = 1; i <= n; i++){
+        int space = (n-i); // 5-1 = 4
         for(int j = 1; j <= space; j++){
             System.out.print(" ");
         }
-        for(int j = 1; j <= i; j++){
+        for(int j = 1; j < n; j++){
             System.out.print("*");
         }
         System.out.println();
     }
-
-    for(int i = n; i >= 1; i--){
-        for(int j = 1; j <= i; j++){
-            System.out.print("*");
-        }
-        int space = 2* (n-i);
-        for(int j = 1; j <= space; j++){
-            System.out.print(" ");
-        }
-        for(int j = 1; j <= i; j++){
-            System.out.print("*");
-        }
-        System.out.println();
-    }
-
-
     }
 }
