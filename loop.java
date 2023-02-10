@@ -433,183 +433,183 @@ public static void main(String[] args){
 
 // ! PATTERN FOUR
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 4;
-//     for(int i = 0; i <= a; i++){
-//         for(int j = 0; j <= a-i; j++){
-//             System.out.print(" ");
-//         }
-//         for(int j = 0; j <= i; j++){
-//             System.out.print("*");
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 4;
+    for(int i = 0; i <= a; i++){
+        for(int j = 0; j <= a-i; j++){
+            System.out.print(" ");
+        }
+        for(int j = 0; j <= i; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int n = 5;
-//     for(int i = 1; i <= n; i++){
-//         for(int j = 1; j <= n-i; j++){
-//             System.out.print(" ");
-//         }
-//         for(int j = 1; j <= i; j++){
-//             System.out.print("*");
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int n = 5;
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= n-i; j++){
+            System.out.print(" ");
+        }
+        for(int j = 1; j <= i; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int n = 4;
-//     for(int i = 0; i <= n; i++){
-//         for(int j = 0; j <= n-i; j++){
-//             System.out.print(" ");
-//         }
-//         for(int j = 0; j <=i ; j++){
-//             System.out.print("*");
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int n = 4;
+    for(int i = 0; i <= n; i++){
+        for(int j = 0; j <= n-i; j++){
+            System.out.print(" ");
+        }
+        for(int j = 0; j <=i ; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    }
+}
 
 // !problem 5
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 5;
-//     for (int i = 0; i <= a; i++){
-//         for(int j = 0; j <= i; j++){
-//             System.out.print(j);
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 5;
+    for (int i = 0; i <= a; i++){
+        for(int j = 0; j <= i; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 5;
-//     for(int i = 1; i <=a; i++){
-//         for(int j = 1; j <= i; j++){
-//             System.out.print(j);
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 5;
+    for(int i = 1; i <=a; i++){
+        for(int j = 1; j <= i; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     Scanner sc = new Scanner(System.in);
-//     int a = sc.nextInt();
-//     for (int i = 1; i <= a; i++){
-//         for (int j = 1; j <= i; j++){
-//             System.out.print(j);
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    for (int i = 1; i <= a; i++){
+        for (int j = 1; j <= i; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+    }
+}
 
 // ! pattern threee
 
-// public class tute {
-// public static void main(String[] args){
-//     int n = 5;
-//     for (int i = 1; i <= n; i++){
-//         for(int j = 1; j <= n-i+1; j++){
-//             System.out.print(j);
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int n = 5;
+    for (int i = 1; i <= n; i++){
+        for(int j = 1; j <= n-i+1; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 5;
-//     for (int i = 1; i <= a; i++){
-//         for(int j = 1; j <= a-i+1; j++){
-//             System.out.print(j+" ");
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 5;
+    for (int i = 1; i <= a; i++){
+        for(int j = 1; j <= a-i+1; j++){
+            System.out.print(j+" ");
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 5;
-//     for(int i = 0; i <= a; i++){
-//         for(int j = 0; j <= a-i+1; j++){
-//             System.out.print(j);
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 5;
+    for(int i = 0; i <= a; i++){
+        for(int j = 0; j <= a-i+1; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 5;
-//     for(int i = 1; i <= a; i++){
-//         for(int j = 1; j < a-i+1; j++){
-//             System.out.print(j);
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 5;
+    for(int i = 1; i <= a; i++){
+        for(int j = 1; j < a-i+1; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int n = 5;
-//     int number = 1;
-//     for(int i = 1; i <= n; i++){
-//         for(int j = 1; j <= i; j++){
-//             System.out.print(number + " ");
-//             number++;
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int n = 5;
+    int number = 1;
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= i; j++){
+            System.out.print(number + " ");
+            number++;
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     for(int i = 1; i <= 5; i++){
-//         for(int j = 1; j <= i; j++){
-//             int sum = i+j;
-//             if(sum % 2 == 0){
-//                 System.out.print("1");
-//             }else{
-//                 System.out.print("0");
-//             }
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    for(int i = 1; i <= 5; i++){
+        for(int j = 1; j <= i; j++){
+            int sum = i+j;
+            if(sum % 2 == 0){
+                System.out.print("1");
+            }else{
+                System.out.print("0");
+            }
+        }
+        System.out.println();
+    }
+    }
+}
 
-// public class tute {
-// public static void main(String[] args){
-//     int a = 5;
-//     for(int i = 1; i <= a; i++){
-//         for(int j = 1; j <= i; j++){
-//             int sum = j+i;
-//             if (sum % 2 ==0){
-//                 System.out.print("1");
-//             }else{
-//                 System.out.print("0");
-//             }
-//         }
-//         System.out.println();
-//     }
-//     }
-// }
+public class tute {
+public static void main(String[] args){
+    int a = 5;
+    for(int i = 1; i <= a; i++){
+        for(int j = 1; j <= i; j++){
+            int sum = j+i;
+            if (sum % 2 ==0){
+                System.out.print("1");
+            }else{
+                System.out.print("0");
+            }
+        }
+        System.out.println();
+    }
+    }
+}
