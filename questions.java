@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.annotation.processing.SupportedOptions;
+import javax.swing.SpinnerDateModel;
 import javax.xml.transform.Source;
 
 //! 01::  Enter 3 numbers from the user & make a function to print their average.
@@ -103,3 +105,25 @@ import javax.xml.transform.Source;
 //     powerNumber(x, y);
 //     }
 // }
+
+//! butterfly using fo loop
+public class questions{
+// public static void main(String[] args){
+//     for (int i = 1; i<= 5; i++){
+//         for(int j = 1; j<= i; j++){
+//             System.out.print("*");
+//         }
+//         for(int j = 1; j<= (5-i); j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1; j<= ; j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+//     }
+// } 
+
+
+//! Write a program to print Fibonacci series of n terms where n is input by user :
+// 0 1 1 2 3 5 8 13 21 ..... In the Fibonacci series, a number is the sum of the previous 2 numbers that came before it.(BONUS)
