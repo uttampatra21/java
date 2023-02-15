@@ -78,7 +78,7 @@ import javax.xml.transform.Source;
 // }
 
 //! Write an infinite loop using do while condition.
-// public class questions {
+public class questions {
 // public static void main(String[] args){
 //     int i = 0;
 //     do{
