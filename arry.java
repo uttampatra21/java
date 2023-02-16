@@ -21,11 +21,19 @@
 //     }
 // }
 
+// public class arry {
+// public static void main(String[] args){
+//     int number[] = {10, 20, 30};
+//     for(int i = 0; i<3; i++){
+//         System.out.println(number[i]);
+//     }
+//     }
+// }
 public class arry {
 public static void main(String[] args){
-    int number[] = {10, 20, 30};
-    for(int i = 0; i<3; i++){
-        System.out.println(number[i]);
+    int arry [] = {10,20,30,40,50,60,70,80};
+    for(int i = 0; i < 8; i++){
+        System.out.println(arry[i]);
     }
     }
 }
