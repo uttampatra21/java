@@ -29,11 +29,12 @@
 //     }
 //     }
 // }
-public class arry {
-public static void main(String[] args){
-    int arry [] = {10,20,30,40,50,60,70,80};
-    for(int i = 0; i < 8; i++){
-        System.out.println(arry[i]);
-    }
-    }
-}
+// public class arry {
+// public static void main(String[] args){
+//     int arry [] = {10,20,30,40,50,60,70,80};
+//     for(int i = 0; i < 8; i++){
+//         System.out.println(arry[i]);
+//     }
+//     }
+// }
+// arry is like your jamitry box :: where you can store lot of things  like (number, string boolean and other data types)
