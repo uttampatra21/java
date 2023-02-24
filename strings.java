@@ -157,19 +157,64 @@
 //     }
 // }
 
+// public class strings {
+// public static void main(String[] args){
+// 	for(int i = 1; i<= 5; i++){
+// 		for(int j = 1; j<=i; j++){
+// 		  System.out.print(j+" ");
+// 		}
+// 		System.out.println();
+// 	  }
+// 	  for(int i = 1; i<= 5; i++){
+// 		for(int j = i; j>=1; j--){
+// 		 System.out.print(j+" ");
+// 		}
+// 		 System.out.println();
+// 	  }
+// 	}
+// }
+
+// public class strings {
+// public static void main(String[] args){
+// 	int count = 0; 
+//     for(int i = 1; i <= 10; i++){
+//         count =  0;
+// 		for(int j = 1; j <= i; j++){
+// 			if(i %j ==0){
+// 				count++;
+// 			}
+// 			if(count == 0){
+// 				System.out.println(i);
+// 			}
+// 		}
+// 	}
+// 	}
+// }
+
+// public class strings  {  
+// public static void main(String[] args) {  
+// 	int ct=0,n=0,i=1,j=1; 
+
+// 	for(int n = 1; n<25; n++){  
+// 		j=1;  
+// 		ct=0; 
+// 		for(int j = 1; j<=i; j++){  
+// 			if(i%j==0)  
+// 			ct++;  	
+// 		}
+// 		if(ct==2){  
+// 			System.out.println(i);   
+// 		}
+// 	}   
+// }  
+// }  
+
 public class strings {
 public static void main(String[] args){
-	for(int i = 1; i<= 5; i++){
-		for(int j = 1; j<=i; j++){
-		  System.out.print(j+" ");
-		}
-		System.out.println();
-	  }
-	  for(int i = 1; i<= 5; i++){
-		for(int j = i; j>=1; j--){
-		  System.out.print(j+" ");
-		}
-		System.out.println();
-	  }
+	int[] intArray = new int[]{1,2,3,4,5};
+	System.out.println(intArray[3]);
+	for(int i = 0; i < intArray.length; i++){
+		System.out.println(intArray[i]);
+	}
 	}
 }
