@@ -58,13 +58,13 @@
 //     }
 // }
 
-public class arry {
-public static void main(String[] args){
-    int sum = 0;
-    int [] num = new int[]{1,2,3,4,5};
-    for(int i = 0; i<num.length; i++ ){
-        sum = num[i] + sum;
-    }
-    System.out.println((sum/5));
-    }
-}
+// public class arry {
+// public static void main(String[] args){
+//     int sum = 0;
+//     int [] num = new int[]{1,2,3,4,5};
+//     for(int i = 0; i<num.length; i++ ){
+//         sum = num[i] + sum;
+//     }
+//     System.out.println((sum/5));
+//     }
+// }
