@@ -38,3 +38,33 @@
 //     }
 // }
 // arry is like your jamitry box :: where you can store lot of things  like (number, string boolean and other data types)
+
+// public class strings {
+// public static void main(String[] args){
+// 	int[] intArray = new int[]{1,2,3,4,5};
+// 	System.out.println(intArray[3]);
+// 	for(int i = 0; i < intArray.length; i++){
+// 		System.out.println(intArray[i]);
+// 	}
+// 	}
+// }
+
+// public class arry {
+// public static void main(String[] args){
+//     int [] number = new int[]{1,2,3,4,5,6,7};
+//     for(int i = number.length -1; i >= 0; i--){
+//         System.out.println(number[i]);
+//     }
+//     }
+// }
+
+public class arry {
+public static void main(String[] args){
+    int sum = 0;
+    int [] num = new int[]{1,2,3,4,5};
+    for(int i = 0; i<num.length; i++ ){
+        sum = num[i] + sum;
+    }
+    System.out.println((sum/5));
+    }
+}
