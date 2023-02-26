@@ -1,8 +1,8 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-import javax.annotation.processing.SupportedOptions;
-import javax.swing.SpinnerDateModel;
-import javax.xml.transform.Source;
+// import javax.annotation.processing.SupportedOptions;
+// import javax.swing.SpinnerDateModel;
+// import javax.xml.transform.Source;
 
 //! 01::  Enter 3 numbers from the user & make a function to print their average.
 
@@ -78,7 +78,7 @@ import javax.xml.transform.Source;
 // }
 
 //! Write an infinite loop using do while condition.
-public class questions {
+// public class questions {
 // public static void main(String[] args){
 //     int i = 0;
 //     do{
@@ -107,7 +107,7 @@ public class questions {
 // }
 
 //! butterfly using fo loop
-public class questions{
+// public class questions{
 // public static void main(String[] args){
 //     for (int i = 1; i<= 5; i++){
 //         for(int j = 1; j<= i; j++){

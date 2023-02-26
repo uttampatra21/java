@@ -32,15 +32,15 @@
 
 
 
-        // int evenSum = 0;
-		// for(int i = 1; i <= num; i++)
-		// {
-		// 	if(i % 2 == 0)
-		// 	{
-		// 		evenSum = evenSum + i; 
-		// 	}
-		// }
-		// System.out.println(evenSum);
+//         int evenSum = 0;
+// 		for(int i = 1; i <= num; i++)
+// 		{
+// 			if(i % 2 == 0)
+// 			{
+// 				evenSum = evenSum + i; 
+// 			}
+// 		}
+// 		System.out.println(evenSum);
 
 
 // public class strings {
@@ -75,14 +75,14 @@
 //     System.out.println(); //for line breaking
 // }
 
-    // // outerloop 
-    //     for(int i=0; i <= 10; i++){
-    // // innerloop 
-    //     for(int j = 0; j < i; j++){
+//     // outerloop 
+//         for(int i=0; i <= 10; i++){
+//     // innerloop 
+//         for(int j = 0; j < i; j++){
             
-    //     System.out.print("*"); // for printing the star
+//         System.out.print("*"); // for printing the star
 
-    //     System.out.println(); //for line breaking
+//         System.out.println(); //for line breaking
     
 
 // let count = 0;
