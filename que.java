@@ -278,3 +278,59 @@
 //     }
 //     }
 // }
+
+// public class que  {  
+// public static void main(String[] args)   {  
+
+//     int ct=0,n=0,i=1,j=1;  
+//     while(n<25){  
+//         j=1;  
+//         ct=0;  
+//     while(j<=i){  
+//     if(i%j==0)  
+//         ct++;  
+//         j++;   
+//     }  
+//     if(ct==2){  
+//     System.out.printf("%d ",i);  
+//     n++;  
+//     }  
+// i++;  
+// }    
+// }  
+// }  
+
+// public class que {
+// public static void main(String[] args){
+//         int isPrime;
+//         for (int i = 2; i <= 100; i++) {
+//             isPrime = 0;
+//             for (int j = 2; j <= i / 2; j++) {
+//                 if (i % j == 0) {
+//                     isPrime = 1;
+//                     break;
+//                 }
+//             }
+//             if (isPrime == 0){
+//                 System.out.print(i + " ");
+//             }
+//         }
+//     }
+// }
+
+public class que {
+public static void main(String[] args){
+    for(int i=1; i<=5; i++){
+        for(int j=1; j<=i; j++){
+            System.out.print(j+" ");
+        }
+        System.out.println();
+    }
+    for(int i=4; i>=1; i--){
+        for(int j=1; j<=i; j++){
+            System.out.print(j+" ");
+        }
+        System.out.println();
+    }
+    }
+}
