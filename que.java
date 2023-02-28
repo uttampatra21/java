@@ -1,3 +1,5 @@
+import javax.xml.transform.Source;
+
 // import java.util.Scanner;
 
 // import javax.xml.transform.Source;
@@ -303,16 +305,18 @@
 // public class que {
 // public static void main(String[] args){
 //         int isPrime;
-//         for (int i = 2; i <= 100; i++) {
+//         for (int i = 2; i <= 10; i++) {
 //             isPrime = 0;
 //             for (int j = 2; j <= i / 2; j++) {
-//                 if (i % j == 0) {
-//                     isPrime = 1;
-//                     break;
-//                 }
+//                 // if (i % j == 0) {
+//                 //     isPrime = 1;
+//                 //     break;
+//                 // }
+//                 System.out.print(j);
 //             }
+//             System.out.println();
 //             if (isPrime == 0){
-//                 System.out.print(i + " ");
+//                 // System.out.print(i + " ");
 //             }
 //         }
 //     }
@@ -335,22 +339,113 @@
 //     }
 // }
 
+// public class que {
+// public static void main(String[] args){
+//     for(int i=1; i<=5; i++){
+//         for(int j=1; j<=i; j++){
+//             System.out.print("*"+" ");
+//         }
+//         System.out.println();
+//     }
+//     for(int i=1; i<=5; i++){
+//         for(int j=1; j<=i; j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1; j<=i; j++){
+//             System.out.print("*"+" ");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int  count =0;
+//     for(int i=1; i<=3; i++){
+//         for(int j=1; j<=3; j++){
+//             count++;
+//             System.out.print(count);
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int count = 0;
+//     for(int i = 1; i<=4; i++){
+//         for(int j= 1; j<=4; j++){
+//             count++;
+//             System.out.print(count+" ");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     for(int i=1; i<=3; i++){
+//         for(int j=1; j<=3; j++){
+//             if(i==1|| j==1|| i==3){
+//                 System.out.print("*"+ " ");
+//             }
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+
+// public class que {
+// public static void main(String[] args){
+//     for(int i=1; i<=3; i++){
+//         for(int j=1; j<=3; j++){
+//             if(i==1||j==1||i==3){
+//                 System.out.print("*"+" ");
+//             }
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int number = 321;
+//     int rev;
+//     while(number>0){
+//         rev = number%10;
+//         number = number/10;
+//         System.out.print(rev);
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     for(int i=0; i<=4; i++){
+//         for(int j=0; j<=4; j++){
+           
+//         }
+//     }
+//     }
+// }
+
+
+
 public class que {
-public static void main(String[] args){
-    // for(int i=1; i<=5; i++){
-    //     for(int j=1; j<=i; j++){
-    //         System.out.print("*"+" ");
-    //     }
-    //     System.out.println();
-    // }
-    for(int i=1; i<=5; i++){
-        for(int j=1; j<=i; j++){
-            System.out.print(" ");
+    public static void main(String[] args){
+        int count = 0;
+        for(int i=0; i<4; i++){
+            for(int j=1; j<=4; j++){
+                count++;
+                System.out.print(count+" ");
+            }
+            System.out.println();
+          }
         }
-        for(int j = 1; j<=i; j++){
-            System.out.print("*");
-        }
-        System.out.println();
     }
-    }
-}
+    
