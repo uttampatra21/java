@@ -435,17 +435,120 @@ import javax.xml.transform.Source;
 // }
 
 
+// public class que {
+//     public static void main(String[] args){
+//         int count = 0;
+//         for(int i=0; i<4; i++){
+//             for(int j=1; j<=4; j++){
+//                 count++;
+//                 System.out.print(count+" ");
+//             }
+//             System.out.println();
+//           }
+//         }
+//     }
+
+// public class que {
+// public static void main(String[] args){
+//     int [] arr = new int[] {1,2,62,4,15,6,7,8};
+//     int min = arr[0];
+//     int count = 0;
+//     for(int i=0; i<arr.length; i++){
+//         if(arr[i]>min){
+//             count = arr[i];
+//         }
+//     }
+//     System.out.println(count);
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int [] arr = new int[] {10,20,30,40,50,60};
+//     for(int i=0; i<arr.length; i++){
+//         arr[2] = 60;
+//         System.out.println(arr[i]);
+//     }
+// }
+// }
+
+// sum of all even number
+// public class que {
+// public static void main(String[] args){
+//     int sum = 0;
+//     for(int i =1; i<=4; i++){
+//         for(int j=1; j<=i; j++){
+//             if(j%2==0){
+//                sum = sum +j;
+//                 System.out.println(sum);
+//             }
+//         }
+//     }
+//     }
+// }
+
+
+
+// public class que {
+// public static void main(String[] args){
+//     int number = 321;
+//     int rev;
+// // 321%10 == ??
+// // 321/10 ==
+// // 1 32.1
+// // 2 3.2
+// // 3 0.3
+//     for(int i =1; i<=number;){
+//         rev = number%10;
+//         number = number/10;
+//         System.out.print(rev);
+//     }
+//     }
+// }
+
+//  n = 4 - 10 
+
+// 4 8
+
+// public class que {
+// public static void main(String[] args){
+//     int count = 0;
+//     for(int i=4; i<=40; i++){
+//         for(j=4; j<=i; j++){
+//             if(i)
+//         }
+//     }
+//     }
+// }
+// 1 23 4 
+
+// i = 0  i%j==0  0%0 == 0   0
+//  1 % 1 == 0 ? 
+
+// j = 0
+
+// 2 4 
+
+// 0 
+// 2
+// 2
+// 6
+
+
+// public class que {
+// public static void main(String[] args){
+//     String name = "ankush";
+//     for(int i=6-1; i>=0; i--){
+//         System.out.println(name.charAt(i));
+//     }
+// }
+// }
 
 public class que {
-    public static void main(String[] args){
-        int count = 0;
-        for(int i=0; i<4; i++){
-            for(int j=1; j<=4; j++){
-                count++;
-                System.out.print(count+" ");
-            }
-            System.out.println();
-          }
-        }
+public static void main(String[] args){
+    String sentence = "uttam patra and ankita";
+    String name = sentence.substring(6, sentence.length());
+
+    System.out.println(name);
     }
-    
+}
