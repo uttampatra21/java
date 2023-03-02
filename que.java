@@ -493,11 +493,6 @@ import javax.xml.transform.Source;
 // public static void main(String[] args){
 //     int number = 321;
 //     int rev;
-// // 321%10 == ??
-// // 321/10 ==
-// // 1 32.1
-// // 2 3.2
-// // 3 0.3
 //     for(int i =1; i<=number;){
 //         rev = number%10;
 //         number = number/10;
@@ -544,11 +539,52 @@ import javax.xml.transform.Source;
 // }
 // }
 
+// public class que {
+// public static void main(String[] args){
+//     String sentence = "uttam patra and ankita";
+//     String name = sentence.substring(6, sentence.length());
+//     System.out.println(name);
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     String name = "madam";
+//     int i=0; 
+//     int j= name.length()-1;
+//     int flag = 0;
+//     while(i<j && flag==0){
+//         if(name.charAt(i) != name.charAt(j)){
+//             flag = 1;
+//             i= i+1;
+//             j= j-1;
+//         }
+//     }
+//     if(flag==0){
+//         System.out.println("Palindrome");
+//     }else{
+//         System.out.println("Not Palindrome");
+//     }
+//     }
+// }
+
 public class que {
 public static void main(String[] args){
-    String sentence = "uttam patra and ankita";
-    String name = sentence.substring(6, sentence.length());
+    String name = "uttam";
+    int vol = 0;
+    int con = 0;
+    name = name.toUpperCase();
 
-    System.out.println(name);
+    for(int i=0; i<name.length(); i++){
+        char chara = name.charAt(i);
+        if(chara != ' '){
+            if(chara=='A'||chara=='E'||chara=='I'||chara=='O'||chara=='U'){
+                vol = vol+ 1;
+            }else{
+                con = con+ 1;
+            }
+        }
     }
-}
+    System.out.println(vol +" "+ con);
+    }
+    }
