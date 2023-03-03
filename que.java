@@ -588,3 +588,7 @@ public static void main(String[] args){
     System.out.println(vol +" "+ con);
     }
     }
+
+    // https://replit.com/@Abhinandan-Kain/Masai-28-Feb#Main.java
+    // https://replit.com/@Abhinandan-Kain/Masai-2-Mar#Main.java
+    // https://replit.com/@Abhinandan-Kain/Masai-1-Mar#Main.java
