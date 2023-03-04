@@ -71,3 +71,51 @@
 //     }
 // }
 
+
+// public class function {
+// public static void main(String[] args){
+//     int a = 1;
+//     int b = 2;
+//     loda(a,b);
+//     }
+//     public static void loda(int a, int b){
+//         return a+b;
+//     }
+// }
+
+// public class function {
+//     static String swap(String name){
+//         String empty = "";
+//         for(int i =0; i<name.length(); i++){
+//             char v = name.charAt(i);
+//             if(Character.isUpperCase(v)){
+//                 empty += Character.toLowerCase(v);
+//             }else{
+//                 empty += Character.toUpperCase(v);
+//             }
+//         }
+//         return empty;
+//     }
+// public static void main(String[] args){
+//     String name = "uttAm";
+//     System.out.println(swap(name));
+//     }
+// }
+
+public class function {
+public static void main(String[] args){
+    String str="ABcd";
+    String result="";
+    for(int i=0; i<str.length();i++){
+      char ch=str.charAt(i);
+      if('A'<= ch && ch<='Z'){
+        ch +=32;
+      }
+      else{
+        ch -=32;
+      }
+      result += ch;
+    }
+    System.out.println(result);
+}
+}
