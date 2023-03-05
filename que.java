@@ -568,27 +568,119 @@ import javax.xml.transform.Source;
 //     }
 // }
 
-public class que {
-public static void main(String[] args){
-    String name = "uttam";
-    int vol = 0;
-    int con = 0;
-    name = name.toUpperCase();
+// public class que {
+// public static void main(String[] args){
+//     String name = "uttam";
+//     int vol = 0;
+//     int con = 0;
+//     name = name.toUpperCase();
 
-    for(int i=0; i<name.length(); i++){
-        char chara = name.charAt(i);
-        if(chara != ' '){
-            if(chara=='A'||chara=='E'||chara=='I'||chara=='O'||chara=='U'){
-                vol = vol+ 1;
-            }else{
-                con = con+ 1;
-            }
-        }
-    }
-    System.out.println(vol +" "+ con);
-    }
-    }
+//     for(int i=0; i<name.length(); i++){
+//         char chara = name.charAt(i);
+//         if(chara != ' '){
+//             if(chara=='A'||chara=='E'||chara=='I'||chara=='O'||chara=='U'){
+//                 vol = vol+ 1;
+//             }else{
+//                 con = con+ 1;
+//             }
+//         }
+//     }
+//     System.out.println(vol +" "+ con);
+//     }
+//     }
 
     // https://replit.com/@Abhinandan-Kain/Masai-28-Feb#Main.java
     // https://replit.com/@Abhinandan-Kain/Masai-2-Mar#Main.java
     // https://replit.com/@Abhinandan-Kain/Masai-1-Mar#Main.java
+
+    // class Main {
+    //     public static void main(String[] args) {
+    //       int n=4;
+    //       int m=(n*2)+1;
+    //       for (int i=1;i<=n;i++){
+    //         for(int j=1;j<=n*2;j++){
+    //           if(i==j  ){
+    //             System.out.print("\\");
+    //           }
+    //             else if ( i==m-j){
+    //             System.out.print("/");
+    //             }
+    //           else{
+    //             System.out.print(" ");
+    //           }
+              
+    //         }
+    //         System.out.println();
+    //       }
+          
+    //     }
+    //   }
+
+    // public class que {
+    // public static void main(String[] args){
+    //     int number = 126;
+    //     int digit;
+    //     digit = number%10;
+    //     if( digit % 3 ==0){
+    //         System.out.println("divisble");
+    //     }else{
+    //         System.out.println("not");
+    //     }
+    //     }
+    // }
+
+    // public class que {
+    // public static void main(String[] args){
+    //     String name = "uttam";
+    //     int i = 0;
+    //     int j = name.length()-1;
+    //     int flag = 0;
+    //     while(i<j && flag==0){
+    //         if(name.charAt(i) != name.charAt(j)){
+    //             flag = 1;
+    //         }
+    //         i = i+1;
+    //             j = j-1;
+    //     }
+    //         if(flag==0){
+    //             System.out.println("palindrome");
+    //         }else{
+    //             System.out.println("not palindrome");
+    //         }
+    //     }
+    // }
+
+    // public class que {
+    // public static void main(String[] args){
+    //     String name = "ankush";
+    //     int vol = 0;
+    //     int con = 0;
+    //     for(int i=0; i<name.length(); i++){
+    //         char c = name.charAt(i);
+    //         if(c == 'a'||c == 'e'||c == 'o'||c == 'i'||c == 'u'){
+    //             vol = vol +1;
+    //         }else{
+    //             con = con +1;
+    //         }
+    //     }
+    //     System.out.println(vol +" "+ con);
+    //     }
+    // }
+
+    public class que {
+    public static void main(String[] args){
+    int a =6;
+        int num1 = 0;
+        int num2 = 0;
+        for(int i=1; i<=a; i++){
+            if(a%i==0){
+                num1 = num1+1;
+            }
+        }
+        if(num1==2){
+            System.out.print("Prime");
+        }else{
+            System.out.print("Not");
+        }
+        }
+    }
