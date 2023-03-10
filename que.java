@@ -1,5 +1,7 @@
 import javax.xml.transform.Source;
 
+import org.xml.sax.SAXNotSupportedException;
+
 // import java.util.Scanner;
 
 // import javax.xml.transform.Source;
@@ -759,4 +761,36 @@ import javax.xml.transform.Source;
 //     }
 //     }
 
-sd
+// public class que {
+// public static void main(String[] args){
+//     int num = 1398993489;
+//     String name = Integer.toString(num);
+//     if(name.contains("89934")){
+//         System.out.println("Number is exist");
+//     }else{
+//         System.out.println("Number is not exist");
+//     }
+//     }
+// }
+
+public class que {
+public static void main(String[] args){
+    int arr[] = {1, 2, 3, 4, 2, 1, 6, 5};
+    int n = arr.length;
+    int count = 0;
+    if(arr[0]>arr[1]){
+        count ++;
+    }
+    if(arr[n-1]>arr[n-2]){
+        count ++;
+    }
+
+    for(int i=1;i<n-1; i++){
+        if(arr[i]>arr[i-1] && arr[i]> arr[i+1]){
+            count++;
+        }
+    }
+        System.out.println(count);
+
+    }
+}
