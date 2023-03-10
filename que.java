@@ -773,24 +773,45 @@ import org.xml.sax.SAXNotSupportedException;
 //     }
 // }
 
+// public class que {
+// public static void main(String[] args){
+//     int arr[] = {1, 2, 3, 4, 2, 1, 6, 5};
+//     int n = arr.length;
+//     int count = 0;
+//     if(arr[0]>arr[1]){
+//         count ++;
+//     }
+//     if(arr[n-1]>arr[n-2]){
+//         count ++;
+//     }
+
+//     for(int i=1;i<n-1; i++){
+//         if(arr[i]>arr[i-1] && arr[i]> arr[i+1]){
+//             count++;
+//         }
+//     }
+//         System.out.println(count);
+
+//     }
+// }
+
 public class que {
 public static void main(String[] args){
-    int arr[] = {1, 2, 3, 4, 2, 1, 6, 5};
-    int n = arr.length;
-    int count = 0;
-    if(arr[0]>arr[1]){
-        count ++;
-    }
-    if(arr[n-1]>arr[n-2]){
-        count ++;
-    }
-
-    for(int i=1;i<n-1; i++){
-        if(arr[i]>arr[i-1] && arr[i]> arr[i+1]){
-            count++;
+    String name  = "utam Patra";
+    name = name.toUpperCase();
+    int vol = 0;
+    int con = 0;
+    for(int i=0; i<name.length(); i++){
+        char c  = name.charAt(i);
+        if(c != ' '){
+            if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'){
+                vol++;
+            }else{
+                con++;
+            }
         }
     }
-        System.out.println(count);
-
+    System.out.println(vol);
+    System.out.println(con);
     }
 }
