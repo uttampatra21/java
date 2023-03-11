@@ -791,27 +791,53 @@ import org.xml.sax.SAXNotSupportedException;
 //         }
 //     }
 //         System.out.println(count);
+//     }
+// }
 
+// public class que {
+// public static void main(String[] args){
+//     String name  = "utam Patra";
+//     name = name.toUpperCase();
+//     int vol = 0;
+//     int con = 0;
+//     for(int i=0; i<name.length(); i++){
+//         char c  = name.charAt(i);
+//         if(c != ' '){
+//             if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'){
+//                 vol++;
+//             }else{
+//                 con++;
+//             }
+//         }
+//     }
+//     System.out.println(vol);
+//     System.out.println(con);
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     String s = "232";
+//     int num = Integer.parseInt(s);
+
+//     int n = num;
+//     int rev = 0;
+//     while(n<0){
+//         rev = (rev*10) + n %10;
+//         n = n/10;
+//     }
+//     System.out.println(n);
 //     }
 // }
 
 public class que {
 public static void main(String[] args){
-    String name  = "utam Patra";
-    name = name.toUpperCase();
-    int vol = 0;
-    int con = 0;
-    for(int i=0; i<name.length(); i++){
-        char c  = name.charAt(i);
-        if(c != ' '){
-            if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'){
-                vol++;
-            }else{
-                con++;
-            }
-        }
+    String name  = "uttam kumar patra";
+    System.out.println(name);
+    String str[] = name.split(" ");
+
+    for(int i=str.length-1; i>=0; i--){
+        System.out.print(str[i]+" ");
     }
-    System.out.println(vol);
-    System.out.println(con);
-    }
+}
 }
