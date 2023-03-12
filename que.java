@@ -830,14 +830,25 @@ import org.xml.sax.SAXNotSupportedException;
 //     }
 // }
 
+// public class que {
+// public static void main(String[] args){
+//     String name  = "uttam kumar patra";
+//     System.out.println(name);
+//     String str[] = name.split(" ");
+
+//     for(int i=str.length-1; i>=0; i--){
+//         System.out.print(str[i]+" ");
+//     }
+// }
+// }
+
 public class que {
 public static void main(String[] args){
-    String name  = "uttam kumar patra";
-    System.out.println(name);
-    String str[] = name.split(" ");
+    String str = "aman is a good boy";
+    String []arr  = str.split(" ");
 
-    for(int i=str.length-1; i>=0; i--){
-        System.out.print(str[i]+" ");
+    for(int i=1; i<=arr.length; i++){
+        System.out.println(i);
     }
-}
+    }
 }
