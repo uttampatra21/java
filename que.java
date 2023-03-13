@@ -1,4 +1,5 @@
 import javax.xml.transform.Source;
+import javax.xml.transform.Templates;
 
 import org.xml.sax.SAXNotSupportedException;
 
@@ -842,13 +843,90 @@ import org.xml.sax.SAXNotSupportedException;
 // }
 // }
 
+// public class que {
+// public static void main(String[] args){
+//     String str = "aman is a good boy";
+//     String []arr  = str.split(" ");
+//     int [] num = Integer.toString(arr)
+//     int count = 0;
+//     for(int i=1; i<=arr.length; i++){
+//         if(arr[i]%2==0){
+//             count++;
+//         }
+//     }
+//     }
+// }\
+
+// public class que {
+// public static void main(String[] args){
+//     String name = "abcd";
+//     for(int i =0; i<name.length(); i++){
+//         for(int j=i+1; j<=name.length(); j++){
+//             System.out.println(name.substring(i, j));
+//         }
+//     }
+//     }
+// }   
+
+// public class que {
+// public static void main(String[] args){
+//     int num = 34942069;
+//     int flag =0;
+//     while(num>0){
+//         int num1 = num%1000;
+//         if(num1==420){
+//             flag =1;
+//             break;
+//         }
+//        num = num/10;
+//     }
+//     if(flag==1){
+//         System.out.println("yes");
+//     }else{
+//         System.out.println("No");
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     String name = "abcdefghi";
+//     for(int i=0; i<name.length(); i=i+3){
+//         String rev = "";
+//         for(int j=i+2; j>=i; j++){
+//             rev += name.charAt(j);
+//         }
+//     }
+//     System.out.println(rev);
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int count  =0;
+//     int arr[] = {1,2,3};
+//     int arr2[] = {2,5,6};
+
+//     for(int i=0; i<arr.length; i++){
+//         for(int j=0; j<arr2.length; j++){
+//             if(arr[i]==arr2[j]){
+//                 count  = arr2[j];;
+//             }
+//         }
+//     }
+//         System.out.println(count);
+//     }
+// }
+
 public class que {
 public static void main(String[] args){
-    String str = "aman is a good boy";
-    String []arr  = str.split(" ");
-
-    for(int i=1; i<=arr.length; i++){
-        System.out.println(i);
+    String name = "aman";
+    int max = 0;
+    String temp;
+    for(int i=0; i<name.length(); i++){
+        for(int j=i+1; j<=name.length(); j++){
+            temp = name.substring(i, j);
+        }
     }
     }
 }
