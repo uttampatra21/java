@@ -1,7 +1,6 @@
-import javax.xml.transform.Source;
-import javax.xml.transform.Templates;
+// import javax.xml.transform.Source;
 
-import org.xml.sax.SAXNotSupportedException;
+// import org.xml.sax.SAXNotSupportedException;
 
 // import java.util.Scanner;
 
@@ -918,15 +917,57 @@ import org.xml.sax.SAXNotSupportedException;
 //     }
 // }
 
-public class que {
-public static void main(String[] args){
-    String name = "aman";
-    int max = 0;
-    String temp;
-    for(int i=0; i<name.length(); i++){
-        for(int j=i+1; j<=name.length(); j++){
-            temp = name.substring(i, j);
-        }
-    }
-    }
-}
+// public class que {
+// public static void main(String[] args){
+//     String name = "aman";
+//     for(int i=0; i<name.length(); i++){
+//         for(int j=i+1; j<=name.length(); j++){
+           
+//         }
+//     }
+// }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int arr[] = {12345};
+//     int max = 0;
+// for(int i=0; i<arr.length; i++){
+//     int temp = 0;
+//     for(int j=i; j<arr.length-1; j++){
+//         if(arr[i]<arr[j]){
+//             temp++;
+//         }else{
+//             break;
+//         }
+//     }
+//     if(temp > max){
+//         max = temp;
+//     }
+// }
+// System.out.println(max);
+// }
+// }
+
+// public class que {
+// public static void main(String[] args){
+    // String compressedText = "a3b3";
+    // int i;
+    // int n = 1;
+    // String d = "";
+    // for (i = 0; i < compressedText.length(); i++) {
+    //     if (Character.isDigit(compressedText.charAt(i))) {
+    //         while (n < compressedText.charAt(i) - '0') {
+    //             d += compressedText.charAt(i - 1);
+    //             n++;
+    //         }
+    //         n = 0;
+    //     } else {
+    //         d += compressedText.charAt(i);
+    //     }
+    // }
+    // System.out.println(d);
+// }
+// }
+
+sout
