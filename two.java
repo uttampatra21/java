@@ -40,21 +40,21 @@ import java.util.Arrays;
 //     }
 // } 
 
-public class two {
-public static void main(String[] args){
-        int[] array = new int[] {1, 2, 3, 4, 5};
-        int[] subArray = Arrays.copyOfRange(array, 0, 2);
+// public class two {
+// public static void main(String[] args){
+//         int[] array = new int[] {1, 2, 3, 4, 5};
+//         int[] subArray = Arrays.copyOfRange(array, 0, 2);
 
-        System.out.println("Array: ");
+//         System.out.println("Array: ");
 
-        for(int i = 0; i < array.length; i++) {
-           System.out.print(array[i] + " ");
-        }
+//         for(int i = 0; i < array.length; i++) {
+//            System.out.print(array[i] + " ");
+//         }
 
-        System.out.println("Sub array: ");
+//         System.out.println("Sub array: ");
 
-        for(int i = 0; i < subArray.length; i++) {
-           System.out.print(subArray[i] + " ");
-        }
-     }
-    }
+//         for(int i = 0; i < subArray.length; i++) {
+//            System.out.print(subArray[i] + " ");
+//         }
+//      }
+//     }v bfvfd
