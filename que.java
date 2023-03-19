@@ -917,16 +917,16 @@
 //     }
 // }
 
-// public class que {
-// public static void main(String[] args){
-//     String name = "aman";
-//     for(int i=0; i<name.length(); i++){
-//         for(int j=i+1; j<=name.length(); j++){
+public class que {
+public static void main(String[] args){
+    String name = "aman";
+    for(int i=0; i<name.length(); i++){
+        for(int j=i+1; j<=name.length(); j++){
            
-//         }
-//     }
-// }
-// }
+        }
+    }
+}
+}
 
 // public class que {
 // public static void main(String[] args){
@@ -951,23 +951,23 @@
 
 // public class que {
 // public static void main(String[] args){
-    // String compressedText = "a3b3";
-    // int i;
-    // int n = 1;
-    // String d = "";
-    // for (i = 0; i < compressedText.length(); i++) {
-    //     if (Character.isDigit(compressedText.charAt(i))) {
-    //         while (n < compressedText.charAt(i) - '0') {
-    //             d += compressedText.charAt(i - 1);
-    //             n++;
-    //         }
-    //         n = 0;
-    //     } else {
-    //         d += compressedText.charAt(i);
-    //     }
-    // }
-    // System.out.println(d);
+//     String compressedText = "a3b3";
+//     int i;
+//     int n = 1;
+//     String d = "";
+//     for (i = 0; i < compressedText.length(); i++) {
+//         if (Character.isDigit(compressedText.charAt(i))) {
+//             while (n < compressedText.charAt(i) - '0') {
+//                 d += compressedText.charAt(i - 1);
+//                 n++;
+//             }
+//             n = 0;
+//         } else {
+//             d += compressedText.charAt(i);
+//         }
+//     }
+//     System.out.println(d);
 // }
 // }
 
-sout
+// sout
