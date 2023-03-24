@@ -1031,16 +1031,79 @@
 // } 
 // }
 
+// public class que {
+// public static void main(String[] args){
+//     int num = 123;
+//     int rem = 0; // 3 2 1
+//     int rev = 0; // 3 31 312
+
+//     while(num != 0){
+//         rem = num %10;
+//         rev  = (rev*10)+rem;
+//     }
+//     System.out.println(rev);
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int arr[] = {1,2,3,2,3,4};
+//     int count = 1;
+//     for(int i=0; i<arr.length-1; i++){
+//         if(arr[i]>arr[i+1]){
+//             count++;
+//         }
+//     }
+//     System.out.println(count);
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int arr[][] = {{1,3,4,5}, {5,4,3,2}};
+//     for(int i=4-1; i>0; i--){
+//         for(int j=0; j<4; j++){
+//             System.out.print(arr[j][i]+" ");
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int arr[][] ={
+//         {1,2,3,4},
+//         {5,6,7,8},
+//         {9,10,11,12}
+//     };
+
+//     for(int i=0; i<3; i++){
+//         if(i%2==0){
+//             for(int j=3-1; j>=0; j--){
+//                 System.out.print(arr[i][j]+" ");
+//             }
+//         }
+//         else{
+//             for(int j=0; j<3; j++){
+//                 System.out.print(arr[i][j]+" ");
+//             }
+//         }
+//         System.out.println();
+//     }
+//     }
+// }
+
 public class que {
 public static void main(String[] args){
-    int num = 123;
-    int rem = 0; // 3 2 1
-    int rev = 0; // 3 31 312
-
-    while(num != 0){
-        rem = num %10;
-        rev  = (rev*10)+rem;
+    int a =4;
+    int b = 10;
+    int num = a;
+    for(int i=a; i<=b; i++){
+        if(i==num){
+            num = i*2;
+            System.out.println(i);
+        }
     }
-    System.out.println(rev);
     }
 }
