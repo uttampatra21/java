@@ -1094,16 +1094,47 @@
 //     }
 // }
 
+
+// public class que {
+// public static void main(String[] args){
+//     int a =4;
+//     int b = 10;
+//     int num = a;
+//     for(int i=a; i<=b; i++){
+//         if(i==num){
+//             num = i*2;
+//             System.out.println(i);
+//         }
+//     }
+//     }
+// }
+
+// public class que {
+// public static void main(String[] args){
+//     int num = 7;
+//     int count = 0;
+//     int sum = 0;
+//     for(int i=1; i<=num; i++){
+//         if(i%2 != 0){
+//             sum += i;
+//         }
+//     }
+//     for(int i=1; i<=sum; i++){
+
+//     }
+//     }
+// }
+
 public class que {
 public static void main(String[] args){
-    int a =4;
-    int b = 10;
-    int num = a;
-    for(int i=a; i<=b; i++){
-        if(i==num){
-            num = i*2;
-            System.out.println(i);
+        for(int i=0; i<5; i++){
+            for(int j=0; j<5; j++){
+                System.out.print(" ");
+            }
+            for(int j=0; j<i; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
         }
-    }
     }
 }
